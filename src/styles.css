@@ -1,0 +1,40 @@
+:root {
+  --c-font: #323330;
+  --c-primary: #f7df1e;
+}
+
+body {
+  color: var(--c-font);
+  font-family: sans-serif;
+  background-color: var(--c-primary);
+  margin: 0;
+  padding: 0;
+}
+
+.App header {
+  margin: 1em;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 800;
+}
+.App nav {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.App nav li {
+  list-style-type: none;
+}
+
+.App nav a,
+.App header a {
+  text-decoration: none;
+  color: var(--c-font);
+}
+.App nav a,
+.App header a:hover {
+  opacity: 0.8;
+}
+.App .content {
+  margin: 1em;
+}
